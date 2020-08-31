@@ -55,11 +55,11 @@ export default function Home() {
                 </div>
             </div>
             <main id="main">       
-                <section id="Home" className="content d-flex flex-column align-items-center">
+                <section id="Home" className="content">
                     <div className="hero-container" />
                     <div className="hero">
                     <h1>CLEMENT <span className="headerColor">NGAI</span></h1>
-                    <h4>Toronto, ON | 416-729-8199 | clum.ngai@gmail.com</h4>
+                    {isMobile ? (<><h4>Toronto, ON</h4><h4>416-729-8199</h4><h4>clum.ngai@gmail.com</h4></>) : (<h4>Toronto, ON | 416-729-8199 | clum.ngai@gmail.com</h4>)}
                     
                     </div>
                 </section>

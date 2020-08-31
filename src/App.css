@@ -131,8 +131,8 @@ section {
     visibility: hidden;
   }
   .hero {
-    top: 10vh;
-    left: -20vw;
+    top: 5vh;
+    left: 20px;
   }
 }
 
@@ -183,4 +183,9 @@ ul {
 .hero {
   position: relative;
   z-index: 2;
+}
+
+.container {
+  padding-left: 5vw;
+  padding-right: 5vw;
 }

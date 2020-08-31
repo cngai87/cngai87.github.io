@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Project() {
     return (
-        <div className="container py-2">
+        <>
             {/*<!-- timeline item 1 -->*/}
             <div className="row no-gutters">
                 <div className="col-sm">
@@ -121,6 +121,6 @@ export default function Project() {
                 </div>
             </div>
             {/*<!--/row-->*/}
-        </div>
+        </>
     )
 }
