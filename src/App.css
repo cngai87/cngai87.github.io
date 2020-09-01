@@ -110,7 +110,7 @@ section {
   .nav {
     height: 100%;
     width: 300px;
-    background-color: royalblue;
+    background-color: rgba(0, 0, 0, 0.753);;
   } 
   .hero {
   top: 1vh;
@@ -122,7 +122,7 @@ section {
   .nav {
     height: 100%;
     width: 300px;
-    background-color: royalblue;
+    background-color: rgba(0, 0, 0, 0.753);
   }
   .content {
     margin-left: 300px;
@@ -173,9 +173,10 @@ ul {
   position: absolute;
   background-image: url(./Assets/background.jpg);
   background-position: center;
+  background-attachment: fixed;
   width: 100%;
   background-size: cover;
-  opacity: 0.6;
+  opacity: 0.5;
   height: 100vh;
   z-index: 1;
 }
