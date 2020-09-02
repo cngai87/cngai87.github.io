@@ -112,10 +112,7 @@ section {
     width: 300px;
     background-color: rgba(0, 0, 0, 0.753);;
   } 
-  .hero {
-  top: 1vh;
-  padding: 10px;
-  }
+
 }
 
 @media (min-width: 768px) {
@@ -130,10 +127,7 @@ section {
   button {
     visibility: hidden;
   }
-  .hero {
-    top: 5vh;
-    left: 20px;
-  }
+  
 }
 
 .navDiv {
@@ -171,12 +165,12 @@ ul {
 }
 .hero-container {
   position: absolute;
-  background-image: url(./Assets/background.jpg);
+  background-image: url(./Assets/background-texture.jpg);
   background-position: center;
   background-attachment: fixed;
   width: 100%;
   background-size: cover;
-  opacity: 0.5;
+  opacity: 0.8;
   height: 100vh;
   z-index: 1;
 }
@@ -189,4 +183,10 @@ ul {
 .container {
   padding-left: 5vw;
   padding-right: 5vw;
+}
+
+.hero p {
+  font-size: 64px;
+  color: white;
+  text-align: center;
 }
