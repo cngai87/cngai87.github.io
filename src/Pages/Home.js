@@ -56,14 +56,14 @@ export default function Home() {
             </div>
             <main id="main">
                 <section id="Home" className="content">
-                    <div className="hero-container d-flex align-content-center justify-content-center">
-                    <div className="hero">
+                    <div className="hero-container " />
+                    <div className="hero d-flex align-content-center flex-column justify-content-center align-items-center">
                         {/*
                         <h1>Clement <span className="headerColor">Ngai</span></h1>
                         {isMobile ? (<><h6>416-729-8199</h6><h6>clum.ngai@gmail.com</h6></>) : (<h4>416-729-8199 | clum.ngai@gmail.com</h4>)}
                         */}
-                        <p>Hi, I'm Clement - IT technician and aspiring front-end developer.</p>
-                    </div>
+                        <p>Hi, I'm Clement!</p>
+                        <p>IT technician and aspiring front-end developer.</p>
                     </div>
                 </section>
 
