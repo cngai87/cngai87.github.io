@@ -40,14 +40,12 @@ section {
 
 .menu {
   color: royalblue;
-  background-color: white;
   border: none;
   position: fixed;
   cursor: pointer;
   top: 20px;
   right: 20px;
   z-index: 100;
-  font-size: 24px;
 }
 
 .is-current {
@@ -104,6 +102,9 @@ section {
   .side-drawer {
       display: none;
   }
+  .hero p {
+    font-size: 7em;
+  }
 }
 
 @media (max-width: 768px) {
@@ -112,7 +113,12 @@ section {
     width: 300px;
     background-color: rgba(0, 0, 0, 0.753);;
   } 
-
+  #heroText, .typed-cursor {
+    font-size: 1.5rem;
+  }
+  .hero p {
+    font-size: 3em;
+  } 
 }
 
 @media (min-width: 768px) {
@@ -127,7 +133,9 @@ section {
   button {
     visibility: hidden;
   }
-  
+  .typed-cursor, #heroText {
+    font-size: 2rem;
+}
 }
 
 .navDiv {
@@ -187,7 +195,12 @@ ul {
 }
 
 .hero p {
-  font-size: 7em;
   color: white;
   text-align: center;
+  position: relative;
+  top: 30vh;
+}
+
+#heroText {
+  top: 28vh;
 }

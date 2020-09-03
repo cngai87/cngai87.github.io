@@ -7,6 +7,7 @@ import Scrollspy from 'react-scrollspy'
 import Projects from './Projects'
 import { ReactComponent as MenuButton } from '../Assets/menu-button-wide.svg'
 import Headshot from '../Assets/Headshot.png'
+import Typed from 'typed.js'
 
 export default function Home() {
 
@@ -14,8 +15,18 @@ export default function Home() {
     const [isMobile, setIsMobile] = useState(window.innerWidth < 768)
 
     useEffect(() => {
-
-        const checkWindowSize = () => setIsMobile(window.innerWidth < 768)
+        const options = {
+          strings: ['IT Technician', 'Aspiring Developer', 'Designer'],
+          typeSpeed: 60,
+          backSpeed: 70,
+          backDelay: 500,
+          loop: true
+        };
+        let typed = new Typed('#heroText', options)
+        const checkWindowSize = () => {
+            setIsMobile(window.innerWidth < 769)
+            setSideOpen(window.innerWidth < 769 ? false : true)
+        }
         window.addEventListener("resize", checkWindowSize);
         return () => window.removeEventListener("resize", checkWindowSize)
     }, [])
@@ -43,10 +54,10 @@ export default function Home() {
                             <i className="fab fa-linkedin mx-2 navColor"></i>
                         </div>
                         <Scrollspy items={['About', 'Portfolio', 'Skills', 'Interests']} currentClassName="is-current">
-                            <Nav.Link eventKey="link-1" href="#About" onClick={() => setSideOpen(false)} className="navText navColor mt-4"><i className="fas fa-user mr-2" /><span>About</span></Nav.Link>
-                            <Nav.Link eventKey="link-2" href="#Portfolio" onClick={() => setSideOpen(false)} className="navText navColor"><i className="fas fa-book mr-2" /><span>Portfolio</span></Nav.Link>
-                            <Nav.Link href="#Skills" onClick={() => setSideOpen(false)} className="navText navColor"><i className="fas fa-tools mr-2" /><span>Skills</span></Nav.Link>
-                            <Nav.Link href="#Interests" onClick={() => setSideOpen(false)} className="navText navColor"><i className="fas fa-puzzle-piece mr-2" /><span>Interests</span></Nav.Link>
+                            <Nav.Link eventKey="link-1" href="#About" onClick={() => setSideOpen(false)} className="navText navColor mt-4 text-center"><i className="fas fa-user mr-2" /><span>About</span></Nav.Link>
+                            <Nav.Link eventKey="link-2" href="#Portfolio" onClick={() => setSideOpen(false)} className="navText navColor text-center"><i className="fas fa-book mr-2" /><span>Portfolio</span></Nav.Link>
+                            <Nav.Link href="#Skills" onClick={() => setSideOpen(false)} className="navText navColor text-center"><i className="fas fa-tools mr-2" /><span>Skills</span></Nav.Link>
+                            <Nav.Link href="#Interests" onClick={() => setSideOpen(false)} className="navText navColor text-center"><i className="fas fa-puzzle-piece mr-2" /><span>Interests</span></Nav.Link>
                         </Scrollspy>
 
                     </Navbar>
@@ -57,13 +68,14 @@ export default function Home() {
             <main id="main">
                 <section id="Home" className="content">
                     <div className="hero-container " />
-                    <div className="hero d-flex align-content-center flex-column justify-content-center align-items-center">
+                    <div className="hero d-flex align-content-center flex-column">
                         {/*
                         <h1>Clement <span className="headerColor">Ngai</span></h1>
                         {isMobile ? (<><h6>416-729-8199</h6><h6>clum.ngai@gmail.com</h6></>) : (<h4>416-729-8199 | clum.ngai@gmail.com</h4>)}
                         */}
                         <p>Hi, I'm Clement!</p>
-                        <p>IT technician and aspiring front-end developer.</p>
+                        {/*<p>IT technician and aspiring front-end developer.</p>*/}
+                        <p><span id="heroText" className="pl-4" /></p>
                     </div>
                 </section>
 
