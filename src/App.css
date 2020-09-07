@@ -155,6 +155,10 @@ section {
   background-color: #f5f8fd;
 }
 
+#Skills, #About {
+  background-color: #f5fdf5
+}
+
 #About, #Portfolio, #Interests, #Skills {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -204,3 +208,36 @@ ul {
 #heroText {
   top: 28vh;
 }
+
+#Skills .fab {
+  font-size: 48px;
+}
+
+.skillsCol {
+  text-align: center;  
+}
+
+.fa-react {
+  color: #60dbfb;
+}
+
+.fa-bootstrap {
+  color: #609
+}
+
+.fa-html5 {
+  color:rgb(241, 101, 41)
+}
+
+.fa-js-square {
+  color: rgb(247, 223, 30)
+}
+
+.fa-npm {
+  color:rgb(204, 53, 52)
+}
+
+.fa-css3-alt {
+  color:rgb(41, 101, 241)
+}
+

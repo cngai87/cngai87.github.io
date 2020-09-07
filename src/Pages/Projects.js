@@ -26,9 +26,9 @@ export default function Project() {
                 <div className="col-sm py-2">
                     <div className="card shadow">
                         <div className="card-body">
-                            <div className="float-right text-muted small">Jan 9th 2019 7:00 AM</div>
-                            <h4 className="card-title">Day 1 Orientation</h4>
-                            <p className="card-text">Welcome to the campus, introduction and get started with the tour.</p>
+                            <h4 className="card-title m-0">Chrome Quick Notes</h4>
+                            <div className="text-muted small mb-2">Aug. 2020</div>
+                            <p className="card-text">Have you ever made a recipe and thought, next time I should just make this simple change? This Chrome extension will sync quick notes you take from a website to your Google account so it's available to you wherever you are! Utilizes a ContentEditable pad that will auto-sanitize your input. Animations have also been applied to provide smooth transitions between pages.</p>
                         </div>
                     </div>
                 </div>
@@ -39,9 +39,9 @@ export default function Project() {
                 <div className="col-sm py-2">
                     <div className="card shadow">
                         <div className="card-body">
-                            <div className="float-right small">Jan 10th 2019 8:30 AM</div>
-                            <h4 className="card-title">Day 2 Sessions</h4>
-                            <p className="card-text">Sign-up for the lessons and speakers that coincide with your course syllabus. Meet and greet with instructors.</p>
+                            <h4 className="card-title m-0">Codenames Online</h4>
+                            <div className="small text-muted mb-2">June 2020</div>
+                            <p className="card-text">An online-version of the card game, Codenames! Full stack project using Node.js to provide server-logic, MongoDB as the database, and React for the front end. Utilizes Socket.IO to provide game updates to all players.</p>
                         </div>
                     </div>
                 </div>
@@ -84,9 +84,9 @@ export default function Project() {
                 <div className="col-sm py-2">
                     <div className="card shadow">
                         <div className="card-body">
-                            <div className="float-right text-muted small">Jan 11th 2019 8:30 AM</div>
-                            <h4 className="card-title">Day 3 Sessions</h4>
-                            <p>Shoreditch vegan artisan Helvetica. Tattooed Codeply Echo Park Godard kogi, next level irony ennui twee squid fap selvage. Meggings flannel Brooklyn literally small batch, mumblecore PBR try-hard kale chips. Brooklyn vinyl lumbersexual bicycle rights, viral fap cronut leggings squid chillwave pickled gentrify mustache.</p>
+                            <h4 className="card-title m-0">Brandy's Yelp!</h4>
+                            <div className="text-muted small mb-2">March 2020</div>
+                            <p>Yelp for pet-friendly places! A site where people can browse, add content, share their favourite pet-friendly places, and socialize with fellow pet-owners. Developed using GraphQL as the database, Auth0 for authentication, and React for the front end graphical interface.</p>
                         </div>
                     </div>
                 </div>
@@ -97,9 +97,9 @@ export default function Project() {
                 <div className="col-sm py-2">
                     <div className="card shadow">
                         <div className="card-body">
-                            <div className="float-right text-muted small">Jan 12th 2019 11:30 AM</div>
-                            <h4 className="card-title">Day 4 Wrap-up</h4>
-                            <p>Join us for lunch in Bootsy's cafe across from the Campus Center.</p>
+                            <h4 className="card-title m-0">Google Map Search</h4>
+                            <div className="text-muted small mb-2">Feb. 2020</div>
+                            <p>A quick site that will allow you to search for places nearby using Google's API's, and mark them on a map. It will also list results for you with relevant info and pictures provided by the response from the API. Learned more in regards to accessing API's, manipulating JSON, and parsing the returned data.</p>
                         </div>
                     </div>
                 </div>

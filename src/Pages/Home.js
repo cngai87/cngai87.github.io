@@ -8,6 +8,13 @@ import Projects from './Projects'
 import { ReactComponent as MenuButton } from '../Assets/menu-button-wide.svg'
 import Headshot from '../Assets/Headshot.png'
 import Typed from 'typed.js'
+import { ReactComponent as AzureIcon } from '../Assets/Azure.svg'
+import {ReactComponent as CiscoIcon } from '../Assets/Cisco.svg'
+import {ReactComponent as PShellIcon } from '../Assets/Powershell.svg'
+import {ReactComponent as NodeIcon } from '../Assets/Nodejs.svg'
+import {ReactComponent as ExchangeIcon} from '../Assets/Exchange.svg'
+import {ReactComponent as GraphQLIcon} from '../Assets/graphql.svg'
+import {ReactComponent as MongoIcon} from '../Assets/Mongodb.svg'
 
 export default function Home() {
 
@@ -16,11 +23,11 @@ export default function Home() {
 
     useEffect(() => {
         const options = {
-          strings: ['IT Technician', 'Aspiring Developer', 'Designer'],
-          typeSpeed: 60,
-          backSpeed: 70,
-          backDelay: 500,
-          loop: true
+            strings: ['IT Technician', 'IT Administrator', 'Aspiring Developer', 'Designer'],
+            typeSpeed: 60,
+            backSpeed: 40,
+            backDelay: 1000,
+            loop: true
         };
         let typed = new Typed('#heroText', options)
         const checkWindowSize = () => {
@@ -45,7 +52,7 @@ export default function Home() {
                 <div className="navRow">
                     {(isMobile && !sideOpen) && <MenuButton onClick={() => openMenu()} className="menu" />}
                     <Navbar className={"flex-column justify-content-center align-items-center nav p-0 " + (isMobile ? "containerMobile " + (sideOpen ? "show" : "hide") : "")} fixed="top" id="sideNav">
-                        <img src={Headshot} className="img-fluid img-thumbnail rounded-circle" />
+                        <a href="#Home"><img src={Headshot} className="img-fluid img-thumbnail rounded-circle" /></a>
                         <div className="profile">
                             <h1 className="navColor">Clement Ngai</h1>
                         </div>
@@ -79,7 +86,7 @@ export default function Home() {
                     </div>
                 </section>
 
-                <section id="About" className="content my-4">
+                <section id="About" className="content">
                     <Container>
 
                         <Section title={"About"} />
@@ -101,42 +108,102 @@ export default function Home() {
 
                     </Container>
                 </section>
-                <section id="Portfolio" className="content my-4">
+                <section id="Portfolio" className="content">
                     <Container>
                         <Section title={"Portfolio"} />
                         <Projects />
                     </Container>
                 </section>
-                <section id="Skills" className="content my-4">
+                <section id="Skills" className="content">
                     <Container>
                         <Section title={"Skills"} />
+                        <Row className="mb-3">
+                            <Col className="skillsCol">
+                                <i className="fab fa-react" />
+                            </Col>
+                            <Col className="skillsCol">
+                            <i className="fab fa-microsoft" />
+                            </Col>
+                        </Row>
+                        <Row className="mb-3">
+                        <Col className="skillsCol">
+                            <i className="fab fa-js-square" />
+                            </Col>
+                        
+                        <Col className="skillsCol">
+                                <AzureIcon />
+                            </Col>     
+                        </Row>
+                        <Row className="mb-3">                              
+                            <Col className="skillsCol">
+                                <i className="fab fa-bootstrap" />
+                            </Col>
+                            <Col className="skillsCol">
+                                <PShellIcon />
+                            </Col>
+                        </Row>
+                        <Row className="mb-3">                              
+                            <Col className="skillsCol">
+                                <NodeIcon />
+                            </Col>
+                            <Col className="skillsCol">
+                                <ExchangeIcon />
+                            </Col>
+                        </Row>
+                        <Row className="mb-3">
+                            <Col className="skillsCol">
+                                <i className="fab fa-npm" />
+                            </Col>
+                            <Col className="skillsCol">
+                                <CiscoIcon />
+                            </Col>
+                        </Row>
+                        <Row className="mb-3">
+                            <Col className="skillsCol">
+                                <GraphQLIcon />
+                            </Col>
+                            <Col className="skillsCol">
+                                <MongoIcon />
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col className="skillsCol">
+                                <i className="fab fa-html5" />
+                            </Col>
+                            <Col className="skillsCol">
+                            <i className="fab fa-css3-alt" />
+                            </Col>
+                        </Row>
                     </Container>
                 </section>
-                <section id="Interests" className="content mt-4">
+                <section id="Interests" className="content">
                     <Container>
                         <Section title={"Interests"} />
                         <Row className="mb-2">
-                            <Col>
-                                <i className="fas fa-chevron-right" />
+                            <Col className="interestsCol">
+                            <span>
+                                <i className="fas fa-chevron-right mr-2" />
+                                Dogs!
+                            </span>
                             </Col>
-                            <Col>
-                                <i className="fas fa-chevron-right" />
+                            <Col className="interestsCol">
+                                <i className="fas fa-chevron-right mr-2" />
                             </Col>
                         </Row>
                         <Row className="mb-2">
-                            <Col>
-                                <i className="fas fa-chevron-right" />
+                            <Col className="interestsCol">
+                                <i className="fas fa-chevron-right mr-2" />
                             </Col>
-                            <Col>
-                                <i className="fas fa-chevron-right" />
+                            <Col className="interestsCol">
+                                <i className="fas fa-chevron-right mr-2" />
                             </Col>
                         </Row>
-                        <Row className="">
-                            <Col>
-                                <i className="fas fa-chevron-right" />
+                        <Row>
+                            <Col className="interestsCol">
+                                <i className="fas fa-chevron-right mr-2" />
                             </Col>
-                            <Col>
-                                <i className="fas fa-chevron-right" />
+                            <Col className="interestsCol">
+                                <i className="fas fa-chevron-right mr-2" />
                             </Col>
                         </Row>
                     </Container>
