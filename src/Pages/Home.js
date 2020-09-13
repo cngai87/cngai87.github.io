@@ -9,12 +9,12 @@ import { ReactComponent as MenuButton } from '../Assets/menu-button-wide.svg'
 import Headshot from '../Assets/Headshot.png'
 import Typed from 'typed.js'
 import { ReactComponent as AzureIcon } from '../Assets/Azure.svg'
-import {ReactComponent as CiscoIcon } from '../Assets/Cisco.svg'
-import {ReactComponent as PShellIcon } from '../Assets/Powershell.svg'
-import {ReactComponent as NodeIcon } from '../Assets/Nodejs.svg'
-import {ReactComponent as ExchangeIcon} from '../Assets/Exchange.svg'
-import {ReactComponent as GraphQLIcon} from '../Assets/graphql.svg'
-import {ReactComponent as MongoIcon} from '../Assets/Mongodb.svg'
+import { ReactComponent as CiscoIcon } from '../Assets/Cisco.svg'
+import { ReactComponent as PShellIcon } from '../Assets/Powershell.svg'
+import { ReactComponent as NodeIcon } from '../Assets/Nodejs.svg'
+import { ReactComponent as ExchangeIcon } from '../Assets/Exchange.svg'
+import { ReactComponent as GraphQLIcon } from '../Assets/graphql.svg'
+import { ReactComponent as MongoIcon } from '../Assets/Mongodb.svg'
 
 export default function Home() {
 
@@ -57,8 +57,8 @@ export default function Home() {
                             <h1 className="navColor">Clement Ngai</h1>
                         </div>
                         <div>
-                            <i className="fab fa-github mx-2 navColor"></i>
-                            <i className="fab fa-linkedin mx-2 navColor"></i>
+                            <a href="https://github.com/cngai87/"><i className="fab fa-github mx-2 navColor"></i></a>
+                            <a href="https://www.linkedin.com/in/clement-ngai-a225b93b/"><i className="fab fa-linkedin mx-2 navColor"></i></a>
                         </div>
                         <Scrollspy items={['About', 'Portfolio', 'Skills', 'Interests']} currentClassName="is-current">
                             <Nav.Link eventKey="link-1" href="#About" onClick={() => setSideOpen(false)} className="navText navColor mt-4 text-center"><i className="fas fa-user mr-2" /><span>About</span></Nav.Link>
@@ -72,16 +72,11 @@ export default function Home() {
                     <div className={"outsideLayer " + (isMobile && sideOpen ? "show" : "")} onClick={() => backdropClickHandler()}></div>
                 </div>
             </div>
-            <main id="main">
+            <main>
                 <section id="Home" className="content">
                     <div className="hero-container " />
                     <div className="hero d-flex align-content-center flex-column">
-                        {/*
-                        <h1>Clement <span className="headerColor">Ngai</span></h1>
-                        {isMobile ? (<><h6>416-729-8199</h6><h6>clum.ngai@gmail.com</h6></>) : (<h4>416-729-8199 | clum.ngai@gmail.com</h4>)}
-                        */}
                         <p>Hi, I'm Clement!</p>
-                        {/*<p>IT technician and aspiring front-end developer.</p>*/}
                         <p><span id="heroText" className="pl-4" /></p>
                     </div>
                 </section>
@@ -91,19 +86,17 @@ export default function Home() {
 
                         <Section title={"About"} />
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sollicitudin non elit ut efficitur. Vestibulum quis lobortis orci. Quisque efficitur libero urna, nec tempus felis venenatis ultrices. Proin nec justo eu leo mattis tincidunt nec in ligula. Cras viverra dignissim turpis, et viverra ipsum porta id. Suspendisse at tempus eros. In hac habitasse platea dictumst. Sed pharetra risus a commodo dignissim.
+                            Hi! Welcome to my webpage! This is my first forage into responsive website design so please be gentle. I'm 32-years old, living in Toronto and currently working in I.T. providing administration and support. I've been in this field for almost a decade now, and feeling too comfortable. Looking for more to do, and having many friends and family as developers, I figured I'd give software development a try! I've always been intrigued and drawn to programming since I first took a Java course in high school. Thinking it would be more useful to have some broader knowledge for jobs though, I decided to go into Electrical Engineering instead. During my university summers, I worked at a small company in their I.T. department. It was this experience that pushed me towards the I.T. field, but now I am back to what I had a passion for during high school, developing software.
                         </p>
                         <h4>Javascript Web Developer</h4>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacinia efficitur nisl eget efficitur. Maecenas elit ex, mollis eget congue et, lobortis quis sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a nisi eu sapien vehicula sagittis. Suspendisse potenti. Vestibulum viverra consequat sapien ut tempus. Donec sed tellus vitae tellus condimentum molestie. Etiam consectetur tortor et nibh volutpat, nec pretium lectus auctor. Vivamus consectetur magna ut tristique iaculis. Suspendisse tincidunt orci laoreet enim interdum sodales. Curabitur id finibus magna, nec suscipit lorem. Proin lacinia interdum orci eu laoreet.
+                            Over the past year, I've been slowly been learning more and more Javascript. As the world becomes increasingly connected, with everyone on their phones constantly, I figured starting at the basics would be best. Using FreeCodeCamp's excellent learning platform, I began my journey with HTML, CSS and lastly Javascript. I have since picked up the library, React and started different projects just to get a better grip on all the new concepts, libraries, packages, and tools that I was being introduced to. Since then I have created a few projects, some that are still (and probably always will be) a work-in-progress. You can see them below in the <a href="#Portfolio">Portfolio</a> section.
                         </p>
                         <h4>
-                            I.T. Technician
+                            I.T. Technician/Administrator
                         </h4>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non massa semper, euismod nibh ac, consectetur urna. Curabitur finibus cursus arcu, non tincidunt nisi venenatis in. Phasellus elementum, magna ac posuere dapibus, nibh elit eleifend risus, id consequat neque felis id lorem. Quisque ullamcorper venenatis est, sed tempor nunc mattis a. Phasellus pellentesque diam id magna molestie venenatis. In facilisis finibus orci at luctus. Duis sed arcu vitae sapien egestas varius sit amet vel massa. Curabitur aliquet arcu quis libero commodo, ac egestas dolor tempus. Proin ac hendrerit est. Vivamus finibus eget ante quis cursus. Duis sagittis quam vestibulum, tristique augue quis, luctus ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum nunc massa, maximus non laoreet at, vestibulum id erat.
-
-                            Morbi lobortis, lacus in sagittis pulvinar, neque lectus porttitor turpis, quis placerat sem leo eget velit. Vivamus at neque malesuada, lobortis sapien sed, faucibus purus. Sed elementum quam sit amet aliquet commodo. Praesent euismod eleifend diam, quis mattis est blandit et. Cras sed feugiat enim. Maecenas mollis felis dictum ante faucibus malesuada eget ullamcorper magna. Donec iaculis non massa vel mattis.
+                            After getting my degree in electrical engineering, I joined the workforce as an I.T. technician and administrator. I was exposed to, and was able to work with many types of systems and software throughout the last 10 years. I am now mainly working within a Microsoft-based environment, with an increasing amount of services being hosted on Microsoft Azure. During any downtime in my workday, I try to streamline any processes that are in place, or come up with ways to make repetitive tasks less of a burden through the use of PowerShell. It really was PowerShell that got me once again into programming again. I have since been able to provide scripts and apps to my colleagues to automate tasks that we had previously had to do manually. When I had discovered the power of <b>Power</b>Shell, I started getting my colleagues to also learn it. We now have a toolkit to handle many day-to-day tasks that we come across.                      
                         </p>
 
                     </Container>
@@ -122,19 +115,19 @@ export default function Home() {
                                 <i className="fab fa-react" />
                             </Col>
                             <Col className="skillsCol">
-                            <i className="fab fa-microsoft" />
+                                <i className="fab fa-microsoft" />
                             </Col>
                         </Row>
                         <Row className="mb-3">
-                        <Col className="skillsCol">
-                            <i className="fab fa-js-square" />
+                            <Col className="skillsCol">
+                                <i className="fab fa-js-square" />
                             </Col>
-                        
-                        <Col className="skillsCol">
+
+                            <Col className="skillsCol">
                                 <AzureIcon />
-                            </Col>     
+                            </Col>
                         </Row>
-                        <Row className="mb-3">                              
+                        <Row className="mb-3">
                             <Col className="skillsCol">
                                 <i className="fab fa-bootstrap" />
                             </Col>
@@ -142,7 +135,7 @@ export default function Home() {
                                 <PShellIcon />
                             </Col>
                         </Row>
-                        <Row className="mb-3">                              
+                        <Row className="mb-3">
                             <Col className="skillsCol">
                                 <NodeIcon />
                             </Col>
@@ -171,7 +164,7 @@ export default function Home() {
                                 <i className="fab fa-html5" />
                             </Col>
                             <Col className="skillsCol">
-                            <i className="fab fa-css3-alt" />
+                                <i className="fab fa-css3-alt" />
                             </Col>
                         </Row>
                     </Container>
@@ -179,33 +172,45 @@ export default function Home() {
                 <section id="Interests" className="content">
                     <Container>
                         <Section title={"Interests"} />
-                        <Row className="mb-2">
+                        <p>
+                            While work keeps me indoors for most of my day, I try to get outside as much as possible. I am the owner of a goldendoodle dog, Brandy, so that definitely helps with making sure I get some fresh air everyday. During the summer and fall, I'm an avid hiker, and love to get to the cottage as often as I can to swim and canoe. During the winter, I'm an intermediate skiier with hopes to take on more advanced hills!
+                        </p>
+                        <p>
+                            While indoors, I enjoy exploring new technology whether it is fiddling with home automation, setting up security cameras, or creating websites and apps. I am also an avid home cook, always looking up new recipes to cook, or bake. I especially love to take on large group meals due to the hustle, time-management and personal responsibilty needed for a successful payoff. To relax, I either dig into some books with fantasy being my go-to genre, or watch some drama or Sci-Fi shows on TV. I also try to continue with my professional development by either working on a web-dev project or studying for a new certification.
+                        </p>
+                        {/*}
+                        <Row className="mb-4">
                             <Col className="interestsCol">
-                            <span>
-                                <i className="fas fa-chevron-right mr-2" />
-                                Dogs!
+                                <span>
+                                    <i className="fas fa-chevron-right mr-2" />
+                                    Dogs!
                             </span>
                             </Col>
                             <Col className="interestsCol">
                                 <i className="fas fa-chevron-right mr-2" />
+                                Hiking
                             </Col>
                         </Row>
-                        <Row className="mb-2">
+                        <Row className="mb-4">
                             <Col className="interestsCol">
                                 <i className="fas fa-chevron-right mr-2" />
+                                Fantasy Novels
                             </Col>
                             <Col className="interestsCol">
                                 <i className="fas fa-chevron-right mr-2" />
+                                Sci-Fi Media
                             </Col>
                         </Row>
                         <Row>
                             <Col className="interestsCol">
                                 <i className="fas fa-chevron-right mr-2" />
+                                Cooking
                             </Col>
                             <Col className="interestsCol">
                                 <i className="fas fa-chevron-right mr-2" />
+
                             </Col>
-                        </Row>
+                        </Row> */}
                     </Container>
                 </section>
             </main>

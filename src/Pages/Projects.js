@@ -1,4 +1,9 @@
 import React from 'react'
+import BYelp from '../Assets/BrandyYelp.PNG'
+import Codenames from '../Assets/Codenames.PNG'
+import GMapSearch from '../Assets/GMapSearch.PNG'
+import ChromeQuickNotes from '../Assets/ChromeQuickNotes.PNG'
+import Fade from 'react-reveal/Fade'
 
 export default function Project() {
     return (
@@ -23,8 +28,10 @@ export default function Project() {
                     </div>
                 </div>
                 {/*<!-- timeline item 1 event content -->*/}
+                <Fade right>
                 <div className="col-sm py-2">
                     <div className="card shadow">
+                    <img class="card-img-top" src={ChromeQuickNotes} alt="Chrome Quick Notes" />
                         <div className="card-body">
                             <h4 className="card-title m-0">Chrome Quick Notes</h4>
                             <div className="text-muted small mb-2">Aug. 2020</div>
@@ -32,19 +39,23 @@ export default function Project() {
                         </div>
                     </div>
                 </div>
+                </Fade>
             </div>
             {/*<!--/row-->*/}
-            {/*<!-- timeline item 2 -->*/}
+            {/*<!-- timeline item 2 -->*/}            
             <div className="row no-gutters">
+            <Fade left>
                 <div className="col-sm py-2">
-                    <div className="card shadow">
+                    <div className="card shadow">                        
+                    <img class="card-img-top" src={Codenames} alt="Codenames Online" />
                         <div className="card-body">
-                            <h4 className="card-title m-0">Codenames Online</h4>
+                            <h4 className="card-title my-1">Codenames Online</h4>
                             <div className="small text-muted mb-2">June 2020</div>
                             <p className="card-text">An online-version of the card game, Codenames! Full stack project using Node.js to provide server-logic, MongoDB as the database, and React for the front end. Utilizes Socket.IO to provide game updates to all players.</p>
                         </div>
                     </div>
                 </div>
+                </Fade>
                 <div className="col-sm-1 text-center flex-column d-none d-sm-flex">
                     <div className="row h-50">
                         <div className="col border-right">&nbsp;</div>
@@ -81,28 +92,34 @@ export default function Project() {
                         <div className="col">&nbsp;</div>
                     </div>
                 </div>
+                <Fade right>
                 <div className="col-sm py-2">
-                    <div className="card shadow">
+                    <div className="card shadow">                        
+                    <img class="card-img-top" src={BYelp} alt="Brandy Yelp" />
                         <div className="card-body">
-                            <h4 className="card-title m-0">Brandy's Yelp!</h4>
+                            <h4 className="card-title my-1">Brandy's Yelp!</h4>
                             <div className="text-muted small mb-2">March 2020</div>
                             <p>Yelp for pet-friendly places! A site where people can browse, add content, share their favourite pet-friendly places, and socialize with fellow pet-owners. Developed using GraphQL as the database, Auth0 for authentication, and React for the front end graphical interface.</p>
                         </div>
                     </div>
                 </div>
+                </Fade>
             </div>
             {/*<!--/row-->*/}
             {/*<!-- timeline item 4 -->*/}
             <div className="row no-gutters">
+                <Fade left>
                 <div className="col-sm py-2">
                     <div className="card shadow">
+                            <img class="card-img-top pt-1" src={GMapSearch} alt="Google Map Search" />
                         <div className="card-body">
-                            <h4 className="card-title m-0">Google Map Search</h4>
+                            <h4 className="card-title my-1">Google Map Search</h4>
                             <div className="text-muted small mb-2">Feb. 2020</div>
                             <p>A quick site that will allow you to search for places nearby using Google's API's, and mark them on a map. It will also list results for you with relevant info and pictures provided by the response from the API. Learned more in regards to accessing API's, manipulating JSON, and parsing the returned data.</p>
                         </div>
                     </div>
                 </div>
+                </Fade>
                 <div className="col-sm-1 text-center flex-column d-none d-sm-flex">
                     <div className="row h-50">
                         <div className="col border-right">&nbsp;</div>
