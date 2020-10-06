@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/personal-website/static/css/main.f2012685.chunk.css",
+    "main.js": "/personal-website/static/js/main.7d2df8eb.chunk.js",
+    "main.js.map": "/personal-website/static/js/main.7d2df8eb.chunk.js.map",
+    "runtime-main.js": "/personal-website/static/js/runtime-main.3731dab7.js",
+    "runtime-main.js.map": "/personal-website/static/js/runtime-main.3731dab7.js.map",
+    "static/css/2.11829350.chunk.css": "/personal-website/static/css/2.11829350.chunk.css",
+    "static/js/2.55470e99.chunk.js": "/personal-website/static/js/2.55470e99.chunk.js",
+    "static/js/2.55470e99.chunk.js.map": "/personal-website/static/js/2.55470e99.chunk.js.map",
+    "index.html": "/personal-website/index.html",
+    "precache-manifest.6e7d7a91f0c07c2b04b46effd323b492.js": "/personal-website/precache-manifest.6e7d7a91f0c07c2b04b46effd323b492.js",
+    "service-worker.js": "/personal-website/service-worker.js",
+    "static/css/2.11829350.chunk.css.map": "/personal-website/static/css/2.11829350.chunk.css.map",
+    "static/css/main.f2012685.chunk.css.map": "/personal-website/static/css/main.f2012685.chunk.css.map",
+    "static/js/2.55470e99.chunk.js.LICENSE.txt": "/personal-website/static/js/2.55470e99.chunk.js.LICENSE.txt",
+    "static/media/Azure.90d4023d.svg": "/personal-website/static/media/Azure.90d4023d.svg",
+    "static/media/Brandy.png": "/personal-website/static/media/Brandy.4d4689a4.png",
+    "static/media/BrandyYelp.PNG": "/personal-website/static/media/BrandyYelp.15f7ae0b.PNG",
+    "static/media/ChromeQuickNotes.PNG": "/personal-website/static/media/ChromeQuickNotes.a98d75a2.PNG",
+    "static/media/Cisco.9473fedc.svg": "/personal-website/static/media/Cisco.9473fedc.svg",
+    "static/media/Codenames.PNG": "/personal-website/static/media/Codenames.15a7809c.PNG",
+    "static/media/Exchange.0a9556dc.svg": "/personal-website/static/media/Exchange.0a9556dc.svg",
+    "static/media/GMapSearch.PNG": "/personal-website/static/media/GMapSearch.1d17b386.PNG",
+    "static/media/Headshot.png": "/personal-website/static/media/Headshot.a080e315.png",
+    "static/media/Mongodb.3fafd5fe.svg": "/personal-website/static/media/Mongodb.3fafd5fe.svg",
+    "static/media/Nodejs.adba1d75.svg": "/personal-website/static/media/Nodejs.adba1d75.svg",
+    "static/media/Powershell.fdb65d2b.svg": "/personal-website/static/media/Powershell.fdb65d2b.svg",
+    "static/media/App.css": "/personal-website/static/media/background-texture.617e30f4.jpg",
+    "static/media/graphql.92fbc2d3.svg": "/personal-website/static/media/graphql.92fbc2d3.svg",
+    "static/media/menu-button-wide.ebc1fd21.svg": "/personal-website/static/media/menu-button-wide.ebc1fd21.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3731dab7.js",
+    "static/css/2.11829350.chunk.css",
+    "static/js/2.55470e99.chunk.js",
+    "static/css/main.f2012685.chunk.css",
+    "static/js/main.7d2df8eb.chunk.js"
+  ]
+}
