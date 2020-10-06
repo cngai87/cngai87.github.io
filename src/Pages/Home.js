@@ -15,6 +15,7 @@ import { ReactComponent as NodeIcon } from '../Assets/Nodejs.svg'
 import { ReactComponent as ExchangeIcon } from '../Assets/Exchange.svg'
 import { ReactComponent as GraphQLIcon } from '../Assets/graphql.svg'
 import { ReactComponent as MongoIcon } from '../Assets/Mongodb.svg'
+import Brandy from '../Assets/Brandy.png'
 
 export default function Home() {
 
@@ -83,22 +84,20 @@ export default function Home() {
 
                 <section id="About" className="content">
                     <Container>
-
                         <Section title={"About"} />
                         <p>
                             Hi! Welcome to my webpage! This is my first forage into responsive website design so please be gentle. I'm 32-years old, living in Toronto and currently working in I.T. providing administration and support. I've been in this field for almost a decade now, and feeling too comfortable. Looking for more to do, and having many friends and family as developers, I figured I'd give software development a try! I've always been intrigued and drawn to programming since I first took a Java course in high school. Thinking it would be more useful to have some broader knowledge for jobs though, I decided to go into Electrical Engineering instead. During my university summers, I worked at a small company in their I.T. department. It was this experience that pushed me towards the I.T. field, but now I am back to what I had a passion for during high school, developing software.
                         </p>
                         <h4>Javascript Web Developer</h4>
                         <p>
-                            Over the past year, I've been slowly been learning more and more Javascript. As the world becomes increasingly connected, with everyone on their phones constantly, I figured starting at the basics would be best. Using FreeCodeCamp's excellent learning platform, I began my journey with HTML, CSS and lastly Javascript. I have since picked up the library, React and started different projects just to get a better grip on all the new concepts, libraries, packages, and tools that I was being introduced to. Since then I have created a few projects, some that are still (and probably always will be) a work-in-progress. You can see them below in the <a href="#Portfolio">Portfolio</a> section.
+                            Over the past year, I've been slowly been learning more and more Javascript. As the world becomes increasingly connected, and with everyone constantly on their phones, I figured starting at the basics would be best. Using FreeCodeCamp's excellent learning platform, I began my journey with HTML, CSS and lastly Javascript. I have since picked up the library, React and started different projects just to get a better grip on all the new concepts, libraries, packages, and tools that I was being introduced to. Since then I have created a few projects, some that are still (and probably always will be) a work-in-progress. You can see them below in the <a href="#Portfolio">Portfolio</a> section.
                         </p>
                         <h4>
                             I.T. Technician/Administrator
                         </h4>
                         <p>
-                            After getting my degree in electrical engineering, I joined the workforce as an I.T. technician and administrator. I was exposed to, and was able to work with many types of systems and software throughout the last 10 years. I am now mainly working within a Microsoft-based environment, with an increasing amount of services being hosted on Microsoft Azure. During any downtime in my workday, I try to streamline any processes that are in place, or come up with ways to make repetitive tasks less of a burden through the use of PowerShell. It really was PowerShell that got me once again into programming again. I have since been able to provide scripts and apps to my colleagues to automate tasks that we had previously had to do manually. When I had discovered the power of <b>Power</b>Shell, I started getting my colleagues to also learn it. We now have a toolkit to handle many day-to-day tasks that we come across.                      
+                            After getting my degree in electrical engineering, I joined the workforce as an I.T. technician and administrator. I was exposed to, and was able to work with many types of systems and software throughout the last 10 years. I am now mainly working within a Microsoft-based environment, with an increasing amount of services being hosted on Microsoft Azure. During any downtime in my workday, I try to streamline any processes that are in place, or come up with ways to make repetitive tasks less of a burden through the use of PowerShell. It really was PowerShell that got me once again into programming again. I have since been able to provide scripts and apps to my colleagues to automate tasks that we had previously had to do manually. When I had discovered the power of <b>Power</b>Shell, I started getting my colleagues to also learn it. We now have a toolkit able to provide diagnostics, automate tasks, and overall make our lives easier.                      
                         </p>
-
                     </Container>
                 </section>
                 <section id="Portfolio" className="content">
@@ -122,7 +121,6 @@ export default function Home() {
                             <Col className="skillsCol">
                                 <i className="fab fa-js-square" />
                             </Col>
-
                             <Col className="skillsCol">
                                 <AzureIcon />
                             </Col>
@@ -173,44 +171,11 @@ export default function Home() {
                     <Container>
                         <Section title={"Interests"} />
                         <p>
-                            While work keeps me indoors for most of my day, I try to get outside as much as possible. I am the owner of a goldendoodle dog, Brandy, so that definitely helps with making sure I get some fresh air everyday. During the summer and fall, I'm an avid hiker, and love to get to the cottage as often as I can to swim and canoe. During the winter, I'm an intermediate skiier with hopes to take on more advanced hills!
+                            While work keeps me indoors for most of my day, I try to get outside as much as possible. I am the owner of a goldendoodle, Brandy, so that definitely helps with making sure I get some fresh air everyday. During the summer and fall, I'm an avid hiker, and love to get to the cottage as often as I can to swim and canoe. During the winter, I'm an intermediate skiier with hopes to take on more advanced hills!
                         </p>
                         <p>
                             While indoors, I enjoy exploring new technology whether it is fiddling with home automation, setting up security cameras, or creating websites and apps. I am also an avid home cook, always looking up new recipes to cook, or bake. I especially love to take on large group meals due to the hustle, time-management and personal responsibilty needed for a successful payoff. To relax, I either dig into some books with fantasy being my go-to genre, or watch some drama or Sci-Fi shows on TV. I also try to continue with my professional development by either working on a web-dev project or studying for a new certification.
                         </p>
-                        {/*}
-                        <Row className="mb-4">
-                            <Col className="interestsCol">
-                                <span>
-                                    <i className="fas fa-chevron-right mr-2" />
-                                    Dogs!
-                            </span>
-                            </Col>
-                            <Col className="interestsCol">
-                                <i className="fas fa-chevron-right mr-2" />
-                                Hiking
-                            </Col>
-                        </Row>
-                        <Row className="mb-4">
-                            <Col className="interestsCol">
-                                <i className="fas fa-chevron-right mr-2" />
-                                Fantasy Novels
-                            </Col>
-                            <Col className="interestsCol">
-                                <i className="fas fa-chevron-right mr-2" />
-                                Sci-Fi Media
-                            </Col>
-                        </Row>
-                        <Row>
-                            <Col className="interestsCol">
-                                <i className="fas fa-chevron-right mr-2" />
-                                Cooking
-                            </Col>
-                            <Col className="interestsCol">
-                                <i className="fas fa-chevron-right mr-2" />
-
-                            </Col>
-                        </Row> */}
                     </Container>
                 </section>
             </main>

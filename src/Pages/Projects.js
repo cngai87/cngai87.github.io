@@ -51,7 +51,7 @@ export default function Project() {
                         <div className="card-body">
                             <h4 className="card-title my-1">Codenames Online</h4>
                             <div className="small text-muted mb-2">June 2020</div>
-                            <p className="card-text">An online-version of the card game, Codenames! Full stack project using Node.js to provide server-logic, MongoDB as the database, and React for the front end. Utilizes Socket.IO to provide game updates to all players.</p>
+                            <p className="card-text">An online-version of the card game, Codenames! Full stack project using Node.js to provide server-logic, MongoDB as the database, and React for the front end. Utilizes Socket.IO to provide online multi-player fun!</p>
                         </div>
                     </div>
                 </div>
@@ -99,7 +99,7 @@ export default function Project() {
                         <div className="card-body">
                             <h4 className="card-title my-1">Brandy's Yelp!</h4>
                             <div className="text-muted small mb-2">March 2020</div>
-                            <p>Yelp for pet-friendly places! A site where people can browse, add content, share their favourite pet-friendly places, and socialize with fellow pet-owners. Developed using GraphQL as the database, Auth0 for authentication, and React for the front end graphical interface.</p>
+                            <p>Yelp for pet-friendly places! A site where people can browse, add content, share their favourite pet-friendly places, and socialize with fellow pet-owners. Developed using GraphQL to interface with a Postgres database, Auth0 for authentication, and React for the front end.</p>
                         </div>
                     </div>
                 </div>
@@ -115,7 +115,7 @@ export default function Project() {
                         <div className="card-body">
                             <h4 className="card-title my-1">Google Map Search</h4>
                             <div className="text-muted small mb-2">Feb. 2020</div>
-                            <p>A quick site that will allow you to search for places nearby using Google's API's, and mark them on a map. It will also list results for you with relevant info and pictures provided by the response from the API. Learned more in regards to accessing API's, manipulating JSON, and parsing the returned data.</p>
+                            <p>A quick site that will allow you to search for places nearby using Google's APIs, and mark them on a map. It will also list results for you with relevant info and pictures provided by the response from the API. Learned more in regards to accessing APIs, manipulating JSON, and parsing the returned data.</p>
                         </div>
                     </div>
                 </div>
