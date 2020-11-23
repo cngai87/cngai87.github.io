@@ -29,6 +29,7 @@ export default function Home() {
             backDelay: 1000,
             loop: true
         };
+        // eslint-disable-next-line
         let typed = new Typed('#heroText', options)
         const checkWindowSize = () => {
             setIsMobile(window.innerWidth < 769)
@@ -52,7 +53,7 @@ export default function Home() {
                 <div className="navRow">
                     {(isMobile && !sideOpen) && <MenuButton onClick={() => openMenu()} className="menu" />}
                     <Navbar className={"flex-column justify-content-center align-items-center nav p-0 " + (isMobile ? "containerMobile " + (sideOpen ? "show" : "hide") : "")} fixed="top" id="sideNav">
-                        <a href="#Home"><img src={Headshot} className="img-fluid img-thumbnail rounded-circle" /></a>
+                        <a href="#Home"><img src={Headshot} alt="Headshot" className="img-fluid img-thumbnail rounded-circle" /></a>
                         <div className="profile">
                             <h1 className="navColor">Clement Ngai</h1>
                         </div>
@@ -86,7 +87,7 @@ export default function Home() {
 
                         <Section title={"About"} />
                         <p>
-                            Hi! Welcome to my webpage! This is my first forage into responsive website design so please be gentle. I'm 32 years old, living in Toronto and currently working in the I.T. field. I've been in this field for almost a decade now, and feeling too comfortable. Looking for more to do, and having many friends and family as developers, I figured I'd give software development a try! I've always been intrigued and drawn to programming since I first took a Java course in high school. Thinking it would be more useful to have some broader knowledge for jobs though, I decided to go into Electrical Engineering instead. During my university summers, I worked at a small company in their I.T. department. It was this experience that pushed me towards the I.T. field, but now I am back to what I had a passion for during high school, developing software.
+                            Hi! Welcome to my webpage! This is my first forage into responsive website design so please be gentle. I'm 33 years old, living in Toronto and currently working in the I.T. field. I've been in this field for almost a decade now, and feeling too comfortable. Looking for more to do, and having many friends and family as developers, I figured I'd give software development a try! I've always been intrigued and drawn to programming since I first took a Java course in high school. Thinking it would be more useful to have some broader knowledge for jobs though, I decided to go into Electrical Engineering instead. During my university summers, I worked at a small company in their I.T. department. It was this experience that pushed me towards the I.T. field, but now I am back to what I had a passion for during high school, developing software.
                         </p>
                         <h4>Javascript Web Developer</h4>
                         <p>
