@@ -81,7 +81,7 @@ export default function Project() {
                     <div className="card shadow">                        
                     <img class="card-img-top" src={Codenames} alt="Codenames Online" />
                         <div className="card-body">
-                            <h4 className="card-title my-1">Codenames Online</h4>
+                            <h4 className="card-title my-1"><a href="https://codenames-cn.herokuapp.com/" target="_blank" rel="noopener noreferrer">Codenames Online</a></h4>
                             <div className="small text-muted mb-2">June 2020</div>
                             <p className="card-text">An online-version of the card game, Codenames! Full stack project using Node.js to provide server-logic, MongoDB as the database, and React for the front end. Utilizes Socket.IO to provide game updates to all players.</p>
                         </div>
@@ -129,7 +129,7 @@ export default function Project() {
                     <div className="card shadow">                        
                     <img class="card-img-top" src={BYelp} alt="Brandy Yelp" />
                         <div className="card-body">
-                            <h4 className="card-title my-1">Brandy's Yelp!</h4>
+                            <h4 className="card-title my-1"><a href="https://byelp.herokuapp.com/" target="_blank" rel="noopener noreferrer">Brandy's Yelp!</a></h4>
                             <div className="text-muted small mb-2">March 2020</div>
                             <p>Yelp for pet-friendly places! A site where people can browse, add content, share their favourite pet-friendly places, and socialize with fellow pet-owners. Developed using GraphQL as the database, Auth0 for authentication, and React for the front end graphical interface.</p>
                         </div>
