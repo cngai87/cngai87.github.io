@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8f61210dfc3dfdd504998b4ef20eacfa",
+    "revision": "0c122a548bfbf6c93cdc91fa71420333",
     "url": "/personal-website/index.html"
   },
   {
-    "revision": "bb217b6b20684e2810e2",
+    "revision": "ca41123ec71517a6539b",
     "url": "/personal-website/static/css/2.11829350.chunk.css"
   },
   {
-    "revision": "3116c9a0f3948fbd599d",
-    "url": "/personal-website/static/css/main.2fb28951.chunk.css"
+    "revision": "eaa1a85e3ff579c30af5",
+    "url": "/personal-website/static/css/main.c94fa4f5.chunk.css"
   },
   {
-    "revision": "bb217b6b20684e2810e2",
-    "url": "/personal-website/static/js/2.f2de61d4.chunk.js"
+    "revision": "ca41123ec71517a6539b",
+    "url": "/personal-website/static/js/2.d42dd313.chunk.js"
   },
   {
     "revision": "f00d093caaa8ffdc0d6acd94ebc345e2",
-    "url": "/personal-website/static/js/2.f2de61d4.chunk.js.LICENSE.txt"
+    "url": "/personal-website/static/js/2.d42dd313.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3116c9a0f3948fbd599d",
-    "url": "/personal-website/static/js/main.8ae4bf6c.chunk.js"
+    "revision": "eaa1a85e3ff579c30af5",
+    "url": "/personal-website/static/js/main.d012b896.chunk.js"
   },
   {
     "revision": "d9385b05e5e57d9628fe",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "405a7b94a9367d1d92f3de7947a6edc7",
     "url": "/personal-website/static/media/Booking.405a7b94.PNG"
+  },
+  {
+    "revision": "4d4689a4ae1e0b73456f88d2b4adf42d",
+    "url": "/personal-website/static/media/Brandy.4d4689a4.png"
   },
   {
     "revision": "15f7ae0b17769465deb97993bf26b6ea",
@@ -76,15 +80,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/personal-website/static/media/Powershell.fdb65d2b.svg"
   },
   {
-    "revision": "617e30f418986e37025c70840627dd33",
-    "url": "/personal-website/static/media/background-texture.617e30f4.jpg"
+    "revision": "230f73082e76c68c646ffa728bfc0113",
+    "url": "/personal-website/static/media/background-texture.230f7308.jpg"
   },
   {
     "revision": "92fbc2d39990665f25a20dbc5ec8ae8d",
     "url": "/personal-website/static/media/graphql.92fbc2d3.svg"
   },
   {
-    "revision": "ebc1fd21da9e7a86ffb8d6330320cee0",
-    "url": "/personal-website/static/media/menu-button-wide.ebc1fd21.svg"
+    "revision": "c86495fa8318269aeb95380bf03b1b25",
+    "url": "/personal-website/static/media/menu-button-wide.c86495fa.svg"
   }
 ]);
