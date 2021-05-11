@@ -30,10 +30,11 @@ export default function Home() {
             backDelay: 1000,
             loop: true
         };
+        // eslint-disable-next-line
         let typed = new Typed('#heroText', options)
         const checkWindowSize = () => {
-            setIsMobile(window.innerWidth < 769)
-            setSideOpen(window.innerWidth < 769 ? false : true)
+            setIsMobile(window.innerWidth < 1024)
+            setSideOpen(window.innerWidth < 1024 ? false : true)
         }
         window.addEventListener("resize", checkWindowSize);
         return () => window.removeEventListener("resize", checkWindowSize)
@@ -53,7 +54,7 @@ export default function Home() {
                 <div className="navRow">
                     {(isMobile && !sideOpen) && <MenuButton onClick={() => openMenu()} className="menu" />}
                     <Navbar className={"flex-column justify-content-center align-items-center nav p-0 " + (isMobile ? "containerMobile " + (sideOpen ? "show" : "hide") : "")} fixed="top" id="sideNav">
-                        <a href="#Home"><img src={Headshot} className="img-fluid img-thumbnail rounded-circle" /></a>
+                        <a href="#Home"><img src={Headshot} alt="Headshot" className="img-fluid img-thumbnail rounded-circle" /></a>
                         <div className="profile">
                             <h1 className="navColor">Clement Ngai</h1>
                         </div>
@@ -86,11 +87,11 @@ export default function Home() {
                     <Container>
                         <Section title={"About"} />
                         <p>
-                            Hi! Welcome to my webpage! This is my first forage into responsive website design so please be gentle. I'm 32-years old, living in Toronto and currently working in I.T. providing administration and support. I've been in this field for almost a decade now, and feeling too comfortable. Looking for more to do, and having many friends and family as developers, I figured I'd give software development a try! I've always been intrigued and drawn to programming since I first took a Java course in high school. Thinking it would be more useful to have some broader knowledge for jobs though, I decided to go into Electrical Engineering instead. During my university summers, I worked at a small company in their I.T. department. It was this experience that pushed me towards the I.T. field, but now I am back to what I had a passion for during high school, developing software.
+                            Hi! Welcome to my webpage! This is my first forage into responsive website design so please be gentle. I'm 33 years old, living in Toronto and currently working in the I.T. field. I've been in this field for almost a decade now, and feeling too comfortable. Looking for more to do, and having many friends and family as developers, I figured I'd give software development a try! I've always been intrigued and drawn to programming since I first took a Java course in high school. Thinking it would be more useful to have some broader knowledge for jobs though, I decided to go into Electrical Engineering instead. During my university summers, I worked at a small company in their I.T. department. It was this experience that pushed me towards the I.T. field, but now I am back to what I had a passion for during high school, developing software.
                         </p>
                         <h4>Javascript Web Developer</h4>
                         <p>
-                            Over the past year, I've been slowly been learning more and more Javascript. As the world becomes increasingly connected, and with everyone constantly on their phones, I figured starting at the basics would be best. Using FreeCodeCamp's excellent learning platform, I began my journey with HTML, CSS and lastly Javascript. I have since picked up the library, React and started different projects just to get a better grip on all the new concepts, libraries, packages, and tools that I was being introduced to. Since then I have created a few projects, some that are still (and probably always will be) a work-in-progress. You can see them below in the <a href="#Portfolio">Portfolio</a> section.
+                            Over the past year, I've slowly been learning Javascript. As the world becomes increasingly connected, and with everyone on their phones constantly, I figured starting at the basics would be best. Using FreeCodeCamp's excellent learning platform, I began my journey with HTML, CSS and lastly Javascript. I have since picked up the library React, and have started different projects just to get a better grip on all the new concepts, libraries, packages, and tools that I was being introduced to. Since then I have created a few projects, some that are still (and probably always will be) a work-in-progress. You can see them below in the <a href="#Portfolio">Portfolio</a> section.
                         </p>
                         <h4>
                             I.T. Technician/Administrator
@@ -171,7 +172,7 @@ export default function Home() {
                     <Container>
                         <Section title={"Interests"} />
                         <p>
-                            While work keeps me indoors for most of my day, I try to get outside as much as possible. I am the owner of a goldendoodle, Brandy, so that definitely helps with making sure I get some fresh air everyday. During the summer and fall, I'm an avid hiker, and love to get to the cottage as often as I can to swim and canoe. During the winter, I'm an intermediate skiier with hopes to take on more advanced hills!
+                            While work keeps me indoors for most of my day, I try to get outside as much as possible. I am the owner of a Goldendoodle dog, Brandy, so that definitely helps with making sure I get some fresh air everyday. During the summer and fall, I'm an avid hiker, and love to get to the cottage as often as I can to swim and canoe. During the winter, I'm an intermediate skiier with hopes to take on more advanced hills!
                         </p>
                         <p>
                             While indoors, I enjoy exploring new technology whether it is fiddling with home automation, setting up security cameras, or creating websites and apps. I am also an avid home cook, always looking up new recipes to cook, or bake. I especially love to take on large group meals due to the hustle, time-management and personal responsibilty needed for a successful payoff. To relax, I either dig into some books with fantasy being my go-to genre, or watch some drama or Sci-Fi shows on TV. I also try to continue with my professional development by either working on a web-dev project or studying for a new certification.

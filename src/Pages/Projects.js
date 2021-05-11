@@ -3,6 +3,7 @@ import BYelp from '../Assets/BrandyYelp.PNG'
 import Codenames from '../Assets/Codenames.PNG'
 import GMapSearch from '../Assets/GMapSearch.PNG'
 import ChromeQuickNotes from '../Assets/ChromeQuickNotes.PNG'
+import Grooming from '../Assets/Booking.PNG'
 import Fade from 'react-reveal/Fade'
 
 export default function Project() {
@@ -10,13 +11,21 @@ export default function Project() {
         <>
             {/*<!-- timeline item 1 -->*/}
             <div className="row no-gutters">
-                <div className="col-sm">
-                    {/*<!--spacer-->*/}
+            <Fade left>
+                <div className="col-sm py-2">
+                    <div className="card shadow">                        
+                    <img className="card-img-top" src={Grooming} alt="Puppy Love Grooming" />
+                        <div className="card-body">
+                            <h4 className="card-title my-1">Puppy Love Grooming</h4>
+                            <div className="small text-muted mb-2">Oct. 2020</div>
+                            <p className="card-text">A sample-site used for a dog grooming service. Includes a Google account-integrated booking service to automatically manage appointments. Uses React for the front-end, and Node.JS for creating and managing appointments. </p>
+                        </div>
+                    </div>
                 </div>
-                {/*<!-- timeline item 1 center dot -->*/}
+                </Fade>
                 <div className="col-sm-1 text-center flex-column d-none d-sm-flex">
                     <div className="row h-50">
-                        <div className="col">&nbsp;</div>
+                        <div className="col border-right">&nbsp;</div>
                         <div className="col">&nbsp;</div>
                     </div>
                     <h5 className="m-2">
@@ -27,7 +36,30 @@ export default function Project() {
                         <div className="col">&nbsp;</div>
                     </div>
                 </div>
-                {/*<!-- timeline item 1 event content -->*/}
+                <div className="col-sm">
+                    {/*<!--spacer-->*/}
+                </div>
+            </div>
+            {/*<!-- timeline item 2 -->*/}
+            <div className="row no-gutters">
+                <div className="col-sm">
+                    {/*<!--spacer-->*/}
+                </div>
+                {/*<!-- timeline item 2 center dot -->*/}
+                <div className="col-sm-1 text-center flex-column d-none d-sm-flex">
+                    <div className="row h-50">
+                        <div className="col border-right">&nbsp;</div>
+                        <div className="col">&nbsp;</div>
+                    </div>
+                    <h5 className="m-2">
+                        <span className="badge badge-pill border">&nbsp;</span>
+                    </h5>
+                    <div className="row h-50">
+                        <div className="col border-right">&nbsp;</div>
+                        <div className="col">&nbsp;</div>
+                    </div>
+                </div>
+                {/*<!-- timeline item 2 event content -->*/}
                 <Fade right>
                 <div className="col-sm py-2">
                     <div className="card shadow">
@@ -42,14 +74,14 @@ export default function Project() {
                 </Fade>
             </div>
             {/*<!--/row-->*/}
-            {/*<!-- timeline item 2 -->*/}            
+            {/*<!-- timeline item 3 -->*/}            
             <div className="row no-gutters">
             <Fade left>
                 <div className="col-sm py-2">
                     <div className="card shadow">                        
                     <img class="card-img-top" src={Codenames} alt="Codenames Online" />
                         <div className="card-body">
-                            <h4 className="card-title my-1">Codenames Online</h4>
+                            <h4 className="card-title my-1"><a href="https://codenames-cn.herokuapp.com/" target="_blank" rel="noopener noreferrer">Codenames Online</a></h4>
                             <div className="small text-muted mb-2">June 2020</div>
                             <p className="card-text">An online-version of the card game, Codenames! Full stack project using Node.js to provide server-logic, MongoDB as the database, and React for the front end. Utilizes Socket.IO to provide online multi-player fun!</p>
                         </div>
@@ -74,7 +106,7 @@ export default function Project() {
                 </div>
             </div>
             {/*<!--/row-->*/}
-            {/*<!-- timeline item 3 -->*/}
+            {/*<!-- timeline item 4 -->*/}
             <div className="row no-gutters">
                 <div className="col-sm">
                     {/*<!--spacer-->*/}
@@ -97,7 +129,7 @@ export default function Project() {
                     <div className="card shadow">                        
                     <img class="card-img-top" src={BYelp} alt="Brandy Yelp" />
                         <div className="card-body">
-                            <h4 className="card-title my-1">Brandy's Yelp!</h4>
+                            <h4 className="card-title my-1"><a href="https://byelp.herokuapp.com/" target="_blank" rel="noopener noreferrer">Brandy's Yelp!</a></h4>
                             <div className="text-muted small mb-2">March 2020</div>
                             <p>Yelp for pet-friendly places! A site where people can browse, add content, share their favourite pet-friendly places, and socialize with fellow pet-owners. Developed using GraphQL to interface with a Postgres database, Auth0 for authentication, and React for the front end.</p>
                         </div>
@@ -106,7 +138,7 @@ export default function Project() {
                 </Fade>
             </div>
             {/*<!--/row-->*/}
-            {/*<!-- timeline item 4 -->*/}
+            {/*<!-- timeline item 5 -->*/}
             <div className="row no-gutters">
                 <Fade left>
                 <div className="col-sm py-2">
